@@ -14,6 +14,7 @@ hp = 25;
 dir = 0;
 attacked = false;
 firstattack = false;
+dashed = false;
 
 // State
 

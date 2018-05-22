@@ -7,7 +7,7 @@ event_inherited();
 // Stats
 
 hp = 5
-knockback = 3.5;
+knockback = 2.75;
 creator = noone;
 if (instance_exists(obj_player)){
 state = scr_enemy_idle;

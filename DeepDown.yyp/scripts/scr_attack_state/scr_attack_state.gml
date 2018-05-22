@@ -2,18 +2,28 @@
 
 	// Attack Anim
 image_speed = 1.5
+
 if (firstattack == false){
-sprite_index = spr_player_slash;
-firstattack = true;
+	sprite_index = spr_player_slash;
 } else if (firstattack == true) {
-sprite_index = spr_player_slash_2;
-firstattack = false;
+	sprite_index = spr_player_slash_2;
 }
 
 	// Create Damage Obj
 if (image_index <= 5 && attacked == false) {
-	var damage = instance_create_layer(x,y,"Instances",obj_player_damage);
-	damage.creator = id;
-	attacked = true;
+	
+	if(image_xscale == -1){
+		var damage = instance_create_layer(x,y,"Instances",obj_player_damage_left);
+		damage.creator = id;
+		attacked = true;
 	}
+	
+	else if(image_xscale == 1){
+		var damage = instance_create_layer(x,y,"Instances",obj_player_damage_right);
+		damage.creator = id;
+		attacked = true;
+	}
+	
+	
+}
 	

@@ -1,12 +1,22 @@
 {
-    "id": "027efa3b-2318-43d8-bb00-e6faa30743ee",
+    "id": "cde4a4ab-4c64-48ae-bf1f-9b68cff7a82f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pitfall",
+    "name": "obj_music_controller",
     "eventList": [
-        
+        {
+            "id": "6ce7709e-d5fa-43de-b754-aa662017d229",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "cde4a4ab-4c64-48ae-bf1f-9b68cff7a82f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -21,7 +31,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
+    "properties": null,
     "solid": false,
-    "spriteId": "08bbf9a0-eb9d-40aa-9c79-4b32b5cada34",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

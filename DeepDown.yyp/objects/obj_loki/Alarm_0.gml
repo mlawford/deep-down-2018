@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Draw self and default to move state
 // You can write your code in this editor
 draw_self();
 image_speed = 1;

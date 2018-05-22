@@ -1,6 +1,8 @@
 
 // Scr Move State
-move_speed = move_speed * 2.5
+image_alpha = 0;
+dashed = true;
+move_speed = move_speed * 2.4
 
 //Get HSP and VSP
 hsp = h_move * move_speed;
@@ -12,12 +14,11 @@ var dash = instance_create_layer(x,y,"instances",obj_player_dash_effect);
 dash.sprite_index = sprite_index;
 dash.image_index = image_index;
 
-if key_left
+if obj_player.image_xscale = -1
 dash.image_xscale = -1 
 
 dash.sprite_index = sprite_index;
 dash.image_index = image_index;
-
 
 	// OLD CODE
 	

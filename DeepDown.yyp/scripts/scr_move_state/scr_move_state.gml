@@ -5,8 +5,10 @@ scr_get_inputs();
 image_speed = 1;
 // Send to Dash State / leave dash state
 if (key_dash) {
-	state = scr_dash_state;
-	alarm[0] = 30/7;
+	if(dashed == false){
+		state = scr_dash_state;
+		alarm[0] = 30/7;
+	}
 }
 
 // Send to Attack State

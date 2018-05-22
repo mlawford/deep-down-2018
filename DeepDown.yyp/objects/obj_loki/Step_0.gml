@@ -11,4 +11,4 @@ if (distance_to_object(obj_player)<aggro){
 
 if hp <= 0{
 	state = scr_loki_death;
-	}
+}

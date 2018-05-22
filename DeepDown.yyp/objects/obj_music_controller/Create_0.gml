@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-show_debug_message("Hit Exit Object"); 
-room_goto_next();
+audio_play_sound(joe_background_song,1,true)
