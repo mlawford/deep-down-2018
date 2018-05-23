@@ -8,6 +8,7 @@
 script_execute(state);
 event_inherited();
 if (hp <= 0){
+	dead = true
 	instance_destroy()
 }
 

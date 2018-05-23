@@ -15,6 +15,8 @@ dir = 0;
 attacked = false;
 firstattack = false;
 dashed = false;
+dead = false;
+damaged = false;
 
 // State
 
