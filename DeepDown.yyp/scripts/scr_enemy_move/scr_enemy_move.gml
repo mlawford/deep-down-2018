@@ -1,13 +1,13 @@
 
 //Inherit Step from Parent
 
-
 // Move Towards Player
 if (distance_to_object(obj_player) <= (aggro +75)){
 loki_hsp = sign(obj_player.x - x)*spd;
 loki_vsp = sign(obj_player.y - y)*spd;
 phy_position_x += loki_hsp;
 phy_position_y += loki_vsp;
+
 
 // Sprite Control
 if (loki_hsp != 0 || loki_vsp != 0){

@@ -9,6 +9,7 @@ event_inherited();
 hp = 5
 knockback = 2.75;
 creator = noone;
+fired = false
 if (instance_exists(obj_player)){
 state = scr_enemy_idle;
 }

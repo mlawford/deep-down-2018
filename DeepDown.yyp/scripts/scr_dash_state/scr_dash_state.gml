@@ -2,7 +2,7 @@
 // Scr Move State
 image_alpha = 0;
 dashed = true;
-move_speed = move_speed * 2.4
+move_speed = move_speed * 2.5
 
 //Get HSP and VSP
 hsp = h_move * move_speed;

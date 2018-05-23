@@ -3,6 +3,14 @@
 	// Attack Anim
 image_speed = 1.5
 
+if(image_xscale = -1) {
+	hsp = h_move * 2
+	phy_position_x -= 1
+} else if (image_xscale = 1) {
+	hsp = h_move * 2
+	phy_position_x += 1
+}
+
 if (firstattack == false){
 	sprite_index = spr_player_slash;
 } else if (firstattack == true) {

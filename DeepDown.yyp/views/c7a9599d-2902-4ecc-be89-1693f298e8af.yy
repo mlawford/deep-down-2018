@@ -10,7 +10,8 @@
         "b2208240-42c1-4b99-a540-d79b657dafce",
         "e57c8961-adda-4caa-8bb6-5fe936de0be6",
         "de2dc773-4cd0-4bb5-bfd1-52a62835cc97",
-        "dca0691d-5e48-47c9-8842-73e62c1b7c22"
+        "dca0691d-5e48-47c9-8842-73e62c1b7c22",
+        "199f574d-efed-435f-ae00-d4a068b1543f"
     ],
     "filterType": "GMSprite",
     "folderName": "Loki",
