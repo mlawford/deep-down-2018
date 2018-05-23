@@ -5,4 +5,4 @@ image_speed = 1;
 sprite_index = spr_loki_attack
 image_index = 0
 fired = true;
-alarm[2]= 0
+alarm[2]= 23

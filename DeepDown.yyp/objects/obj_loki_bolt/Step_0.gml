@@ -3,3 +3,8 @@
 
 phy_position_x += lengthdir_x(spd, dir);
 phy_position_y += lengthdir_y(spd, dir);
+
+hp -= 1
+if(hp < 0){
+	instance_destroy();	
+}
