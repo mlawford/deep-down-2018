@@ -11,6 +11,8 @@ if (other.id != creator) {
 	var yforce = lengthdir_y(knockback,dir);
 	with (other) {
 		physics_apply_impulse(x,y,xforce,yforce);
+		other.phy_linear_velocity_x -= 2
+		other.phy_linear_velocity_x -= 2
 	}
 	
 }
