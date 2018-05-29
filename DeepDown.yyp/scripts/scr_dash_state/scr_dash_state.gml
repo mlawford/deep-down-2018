@@ -2,7 +2,9 @@
 // Scr Move State
 image_alpha = 0;
 dashed = true;
-move_speed = move_speed * 2.5
+move_speed = move_speed * 2.2
+
+
 
 // Play SFX
 scr_phase_dash_sound()
@@ -31,12 +33,12 @@ if(place_meeting(x+hsp,y,obj_solid)){
 	hsp = 0;
 	}
 	
-	x += hsp
+	phy_position_x += hsp
 
 if(place_meeting(x,y+vsp,obj_solid)){
 	vsp = 0;
 	}
 	
-	y += vsp
+	phy_position_y += vsp
 
 

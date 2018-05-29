@@ -51,9 +51,28 @@ if (key_attack){
 
 	// Movement
 	if (hsp != 0 || vsp != 0){
-		sprite_index = spr_player_walk
-		scr_walking_sound()
-		}else{
+		moving = true;
+	} else {
+		moving = false;
+	}
+	
+	if (moving){
+		
+		if(key_sprint) {
+			move_speed = sprint_speed;
+			sprite_index = spr_player_run
+			scr_sprinting_sound()
+		} else if(key_sprint == false) {
+			move_speed = 2;
+			image_speed = image_speed/2
+			sprite_index = spr_player_walk
+			show_debug_message(image_index)
+
+			scr_walking_sound()
+		}
+	} else {
+		moving = false;
+		move_speed = 2;
 		sprite_index = spr_player_idle
 	}
 	
@@ -78,13 +97,7 @@ if (key_attack){
 
 
 	//Sprint
-	if key_sprint{
-	move_speed = sprint_speed;
-	sprite_index = spr_player_run
-	scr_sprinting_sound()
-	}else{
-	move_speed = 2;
-	}
+
 
  //Collision
 

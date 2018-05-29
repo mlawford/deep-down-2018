@@ -11,7 +11,8 @@
         "23787269-65fb-468a-ad87-ce77a87b3c0c",
         "28424cd7-c38c-416d-82a4-2d6294cde081",
         "eda52869-a0f3-45a7-b8e5-95e23f94a4ef",
-        "85e7a41d-9a31-4d9e-ad9f-c79a4ed58235"
+        "85e7a41d-9a31-4d9e-ad9f-c79a4ed58235",
+        "dcde348c-3516-473c-9408-04a931974345"
     ],
     "filterType": "GMScript",
     "folderName": "Player Scripts",

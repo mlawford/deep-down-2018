@@ -17,6 +17,7 @@ firstattack = false;
 dashed = false;
 dead = false;
 damaged = false;
+moving = false;
 depth = -10
 
 // State
