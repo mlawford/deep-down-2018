@@ -51,7 +51,8 @@ if (key_attack){
 
 	// Movement
 	if (hsp != 0 || vsp != 0){
-		sprite_index = spr_player_run
+		sprite_index = spr_player_walk
+		scr_walking_sound()
 		}else{
 		sprite_index = spr_player_idle
 	}
@@ -79,8 +80,10 @@ if (key_attack){
 	//Sprint
 	if key_sprint{
 	move_speed = sprint_speed;
+	sprite_index = spr_player_run
+	scr_sprinting_sound()
 	}else{
-	move_speed = 3.2;
+	move_speed = 2;
 	}
 
  //Collision

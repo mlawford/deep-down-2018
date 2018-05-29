@@ -4,6 +4,9 @@ image_alpha = 0;
 dashed = true;
 move_speed = move_speed * 2.5
 
+// Play SFX
+scr_phase_dash_sound()
+
 //Get HSP and VSP
 hsp = h_move * move_speed;
 vsp = v_move * move_speed;
