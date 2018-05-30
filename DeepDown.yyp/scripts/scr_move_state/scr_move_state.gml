@@ -1,7 +1,8 @@
 
 // Get Key Inputs
 scr_get_inputs();
-
+show_debug_message(hsp)
+show_debug_message(vsp)
 image_speed = 1;
 // Send to Dash State / leave dash state
 if (key_dash) {
@@ -14,7 +15,11 @@ if (key_dash) {
 // Send to Attack State
 if (key_attack){
 	image_index = 0;
-	state = scr_attack_state;
+	if(firstattack == false){
+		state = scr_attack_state;
+	} else if(firstattack == true){
+		state = scr_second_attack;
+	}
 }
 
 // Move Player in Step
@@ -66,8 +71,6 @@ if (key_attack){
 			move_speed = 2;
 			image_speed = image_speed/2
 			sprite_index = spr_player_walk
-			show_debug_message(image_index)
-
 			scr_walking_sound()
 		}
 	} else {

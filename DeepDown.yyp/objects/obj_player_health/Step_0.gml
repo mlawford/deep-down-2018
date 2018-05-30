@@ -16,7 +16,6 @@ if(instance_exists(obj_player)){
 		y += ((obj_player.y - y) * 0.3 - 20)
 	}
 
-
 	if(obj_player.hp < 25 && obj_player.hp > 10){
 		image_index = 1
 	} else if(obj_player.hp < 10 && obj_player.hp > 0){
