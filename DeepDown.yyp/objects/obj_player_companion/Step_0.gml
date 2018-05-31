@@ -1,17 +1,15 @@
 /// @description Draw sprite at character position
 // You can write your code in this editor
 image_speed = 0
-image_xscale = 0.75
-image_yscale = 0.75
-
+image_index = 0
+image_xscale = 1.5
+image_yscale = 1.5
 //Render relative to character position
 if(instance_exists(obj_player)){
 	if(obj_player.image_xscale = -1){
-		image_index = 1
 		x += (obj_player.x - x) * 0.3;
 		y += ((obj_player.y - y) * 0.3 - 20)
 	} else {
-		image_index = 0
 		x += ((obj_player.x - x) * 0.3 - 15)
 		y += ((obj_player.y - y) * 0.3 - 20)
 	}

@@ -8,7 +8,10 @@ if (other.id != creator) {
 	var dir = point_direction(x,y,other.x,other.y);
 	var xforce = lengthdir_x(knockback,dir);
 	var yforce = lengthdir_y(knockback,dir);
+
 	with (other) {
-		physics_apply_impulse(x,y,xforce,yforce);
+		physics_apply_impulse(x,y,xforce/2,yforce/2);
 	}
+	
+	
 }
