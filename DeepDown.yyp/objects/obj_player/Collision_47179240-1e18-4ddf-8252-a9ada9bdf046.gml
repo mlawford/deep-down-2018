@@ -1,6 +1,6 @@
 /// @description Take Damage
 // You can write your code in this editor
-/*if(damaged == false){ 
+if(damaged == false){ 
 	hp -= 1;
 	state = scr_damaged_state;
 	obj_view.shakeIntensity = 30;
