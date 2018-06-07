@@ -6,7 +6,8 @@
     "children": [
         "58125729-ab0d-48b6-9c50-e3311b4fac19",
         "dc3d71c5-b643-44cc-9170-a30951f767f8",
-        "6adcedb2-3874-465d-9c9a-d98941073530"
+        "6adcedb2-3874-465d-9c9a-d98941073530",
+        "41a11b4c-cf09-485f-8551-3ae84972330c"
     ],
     "filterType": "GMScript",
     "folderName": "Skeleton Scripts",

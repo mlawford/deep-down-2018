@@ -5,7 +5,8 @@
     "name": "c32b80ac-c615-41df-ba63-e7a605bdfee4",
     "children": [
         "1b9c8c39-e29b-47c6-bdc3-d95e37c89f4a",
-        "d38321b4-767c-44b0-a284-caa571aa749c"
+        "d38321b4-767c-44b0-a284-caa571aa749c",
+        "bb7172c1-1ec2-424b-ba61-c51961af54cb"
     ],
     "filterType": "GMObject",
     "folderName": "Enemy Objects",

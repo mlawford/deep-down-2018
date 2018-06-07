@@ -1,8 +1,6 @@
 
 // Get Key Inputs
 scr_get_inputs();
-show_debug_message(hsp)
-show_debug_message(vsp)
 image_speed = 1;
 // Send to Dash State / leave dash state
 if (key_dash) {

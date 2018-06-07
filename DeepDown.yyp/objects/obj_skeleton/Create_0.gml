@@ -12,5 +12,7 @@ knockback = 1.5;
 aggro = 50;
 creator = noone;
 damaged = false;
+can_move = true;
+attacked = false;
 state = scr_skeleton_idle;
 

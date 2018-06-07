@@ -704,6 +704,25 @@
             }
         },
         {
+            "Key": "41a11b4c-cf09-485f-8551-3ae84972330c",
+            "Value": {
+                "id": "9cef464f-88e0-4eb3-9b91-df448699cb14",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_skeleton_attack\/scr_skeleton_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "42a63644-1e3b-492b-9173-6eaa6e652b60",
             "Value": {
                 "id": "c443b86b-7fa0-476f-b0d7-70a19633c321",
@@ -1445,6 +1464,25 @@
             }
         },
         {
+            "Key": "a4bd3899-08f9-4510-96e5-bbac434976d2",
+            "Value": {
+                "id": "05547c6d-8bfe-45c3-9254-67c5479823a6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_skeleton_swing\/spr_skeleton_swing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5a94ea5-b837-4f65-b9bf-78e3e8c17c35",
             "Value": {
                 "id": "ef19484d-344b-4c46-a612-835dd5c7c12b",
@@ -1613,6 +1651,25 @@
                 ],
                 "resourcePath": "sprites\/spr_desert_bg_filler\/spr_desert_bg_filler.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bb7172c1-1ec2-424b-ba61-c51961af54cb",
+            "Value": {
+                "id": "4091a4fd-304b-4f2b-b337-700b4d4d457e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_skeleton_swing\/obj_skeleton_swing.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2148,6 +2205,25 @@
             }
         },
         {
+            "Key": "e1bb4bbf-1305-4ff1-b56b-6769874ff654",
+            "Value": {
+                "id": "0ba823da-f153-4c55-b8a1-f0c8b443b5bc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_skeleton_attack\/spr_skeleton_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e312c69f-491a-40db-aaa0-aedc005e5a66",
             "Value": {
                 "id": "c5344a78-c729-44bc-81bc-20181f64f413",
@@ -2510,7 +2586,8 @@
         "1d8b2029-fb76-490d-a91f-579c2dd55a04",
         "58125729-ab0d-48b6-9c50-e3311b4fac19",
         "dc3d71c5-b643-44cc-9170-a30951f767f8",
-        "6adcedb2-3874-465d-9c9a-d98941073530"
+        "6adcedb2-3874-465d-9c9a-d98941073530",
+        "41a11b4c-cf09-485f-8551-3ae84972330c"
     ],
     "tutorial": ""
 }
